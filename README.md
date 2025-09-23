@@ -4,19 +4,19 @@ Welcome to **Interactive Go Book** — an educational CLI application with open-
 
 ---
 
-## 📖 About the Book
+## About the Book
 
 This is not just a text book, but an **interactive tutorial** written entirely in **Go**.  
 The book combines:  
 
-- 🧩 **Theory** — chapters explaining key Go concepts.  
-- 🛠️ **Practice** — exercises and tasks to reinforce your knowledge.  
-- 💾 **Progress Saving** — your progress is stored *locally* in `progress.json`.  
-- 🔍 **CLI Project Insight** — see under the hood how a Go CLI tool is structured and works.  
+- **Theory** — chapters explaining key Go concepts.  
+- **Practice** — exercises and tasks to reinforce your knowledge.  
+- **Progress Saving** — your progress is stored *locally* in `progress.json`.  
+- **CLI Project Insight** — see under the hood how a Go CLI tool is structured and works.  
 
 ---
 
-## ⚙️ Features
+## Features
 
 - Navigate through chapters.  
 - Read theoretical materials (Markdown).  
@@ -25,7 +25,7 @@ The book combines:
 
 ---
 
-## 🚀 Installation and Running
+## Installation and Running
 
 ### Option 1. Using Precompiled Binary  
 (Recommended for end users)  
@@ -55,7 +55,7 @@ go build -o interactiveGoBook ./cmd/interactiveGoBook
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Interactive Go Book + Exercises/
@@ -69,7 +69,7 @@ Interactive Go Book + Exercises/
 
 ---
 
-## 🛠 Roadmap
+## Roadmap
 
 - Add more chapters.  
 - Integrate tests for exercises.  
@@ -78,7 +78,7 @@ Interactive Go Book + Exercises/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome! If you have ideas or fixes:  
 
@@ -89,7 +89,7 @@ Pull requests are welcome! If you have ideas or fixes:
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the **GNU Affero General Public License v3.0**.
 
