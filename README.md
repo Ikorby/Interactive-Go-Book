@@ -1,6 +1,6 @@
 # Interactive Go Book 1.25
 
-Welcome to **Interactive Go Book** — an educational CLI application with open-source code! 🚀
+Welcome to **Interactive Go Book** — an educational CLI application with open-source code!
 
 ---
 
