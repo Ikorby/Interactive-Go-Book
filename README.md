@@ -1,6 +1,6 @@
 # Interactive Go Book 1.25
 
-Welcome to **Interactive Go Book** — an educational CLI application with open-source code!
+Welcome to **Interactive Go Book** - an educational CLI application with open-source code!
 
 ---
 
@@ -9,10 +9,10 @@ Welcome to **Interactive Go Book** — an educational CLI application with open-
 This is not just a text book, but an **interactive tutorial** written entirely in **Go**.  
 The book combines:  
 
-- **Theory** — chapters explaining key Go concepts.  
-- **Practice** — exercises and tasks to reinforce your knowledge.  
-- **Progress Saving** — your progress is stored *locally* in `progress.json`.  
-- **CLI Project Insight** — see under the hood how a Go CLI tool is structured and works.  
+- **Theory** - chapters explaining key Go concepts.  
+- **Practice** - exercises and tasks to reinforce your knowledge.  
+- **Progress Saving** - your progress is stored *locally* in `progress.json`.  
+- **CLI Project Insight** - see under the hood how a Go CLI tool is structured and works.  
 
 ---
 
@@ -59,7 +59,7 @@ go build -o interactiveGoBook ./cmd/interactiveGoBook
 
 ```
 Interactive Go Book + Exercises/
-├── cmd/            # main.go — entry point
+├── cmd/            # main.go - entry point
 │   └── interactiveGoBook/
 ├── internal/       # project modules (theory, exercises, progress)
 ├── content/        # book chapters in Markdown format
