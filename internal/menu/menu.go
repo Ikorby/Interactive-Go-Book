@@ -9,6 +9,9 @@ import (
 	"github.com/Ikorby/Interactive-Go-Book/internal/theory"
 )
 
+func MenuGreeting() {
+	fmt.Println("\nWelcome to the Interactive Go Book!")
+}
 func ShowMainMenu() {
 	for {
 		fmt.Println("\nWelcome to the Interactive Go Book!")
@@ -21,23 +24,13 @@ func ShowMainMenu() {
 
 		switch option {
 		case "1", "english", "английский":
-			startEnglishVersion()
+			theory.Greeting("en")
 			return
 		case "2", "russian", "русский":
-			startRussianVersion()
+			theory.Greeting("ru")
 			return
 		default:
-			fmt.Println("Invalid option. Please select 1 or 2.")
+			fmt.Printf("\nInvalid option. Please select 1 or 2.\n\n")
 		}
 	}
-}
-
-func startEnglishVersion() {
-	fmt.Println("\nYou selected English version!")
-	theory.ShowChapters("en") // передаем язык
-}
-
-func startRussianVersion() {
-	fmt.Println("\nВы выбрали русскую версию!")
-	theory.ShowChapters("ru") // передаем язык
 }
